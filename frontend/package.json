@@ -30,15 +30,18 @@
   "author": "lingodingo",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@material-ui/types": "^5.1.0",
     "@types/mocha": "^5.2.7",
     "@types/react": "^16.9.13",
     "@types/react-dom": "^16.9.4",
     "@types/react-router": "^4.4.5",
     "@types/react-router-dom": "^4.3.5",
+    "@types/styled-components": "^5.1.0",
     "acorn": "^6.4.0",
     "ajv": "^6.10.2",
     "copy-pkg-json-webpack-plugin": "0.0.38",
@@ -60,6 +63,7 @@
     "source-map-loader": "^0.2.4",
     "spectron": "^5.0.0",
     "style-loader": "^0.23.1",
+    "styled-components": "^5.1.1",
     "ts-loader": "^5.4.5",
     "ts-node": "^7.0.1",
     "tsconfig-paths": "^3.9.0",
