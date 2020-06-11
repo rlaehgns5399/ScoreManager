@@ -11,11 +11,11 @@ function createWindow(): void {
     // Create the browser window.
     mainWindow = new BrowserWindow({
         height: 600,
-        width: 800,
         webPreferences: {
+            devTools: process.env.NODE_ENV === 'production' ? false : true,
             webSecurity: false,
-            devTools: process.env.NODE_ENV === 'production' ? false : true
-        }
+        },
+        width: 800,
     });
 
     // and load the index.html of the app.
@@ -23,8 +23,8 @@ function createWindow(): void {
         url.format({
             pathname: path.join(__dirname, './index.html'),
             protocol: 'file:',
-            slashes: true
-        })
+            slashes: true,
+        }),
     );
 
     // Emitted when the window is closed.
