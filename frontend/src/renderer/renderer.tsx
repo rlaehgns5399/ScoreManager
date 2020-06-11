@@ -1,4 +1,4 @@
-import { App } from '@/renderer/components/login/index';
+import { App } from '@/renderer/components/signUp/index';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
